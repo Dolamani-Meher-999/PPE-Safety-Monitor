@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Dataset - too large for GitHub
+helmet_dataset/
+EdgeVision Dataset/
+
+# YOLO training outputs
+runs/
+
+helmet_test.jpg
+test.jpg
+test_traffic.jpg
+
+# Large model files
+*.pt
+
+# Generated predictions
+prediction.jpg
+result.jpg
+
+# Violation screenshots
+violations/
+
+# Violation logs
+violations.csv
+
+# Temporary files
+*.cache
