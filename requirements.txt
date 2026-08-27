@@ -1,6 +1,5 @@
-ultralytics
 streamlit
-opencv-python
+ultralytics==8.4.130
 pillow
 numpy
 pandas
