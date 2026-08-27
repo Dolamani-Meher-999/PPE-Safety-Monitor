@@ -16,10 +16,7 @@ st.set_page_config(
 # LOAD TRAINED MODEL
 # --------------------------------------------------
 
-MODEL_PATH = (
-    r"runs\detect\runs\detect\helmet_10epochs-2"
-    r"\weights\best.pt"
-)
+MODEL_PATH = "best.pt"
 
 @st.cache_resource
 def load_model():

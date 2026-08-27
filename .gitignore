@@ -15,7 +15,8 @@ test.jpg
 test_traffic.jpg
 
 # Large model files
-*.pt
+# Model files
+# *.pt
 
 # Generated predictions
 prediction.jpg
